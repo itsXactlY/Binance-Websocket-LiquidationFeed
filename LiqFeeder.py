@@ -34,7 +34,7 @@ def check_liquidations():
                 past = now - d1
                 duration = past.total_seconds()
                 if duration < 1:
-                    # print("---------------------------------------------------------------------------------")
+                    print("---------------------------------------------------------------------------------")
                     print("Liquidation found for:", amount, "Contracts worth: $", lick_size, "on ", symbol)
 
             except KeyError:
