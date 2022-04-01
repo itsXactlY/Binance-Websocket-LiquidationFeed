@@ -36,9 +36,7 @@ def check_liquidations():
                 if duration < 1:
                     # print("---------------------------------------------------------------------------------")
                     print("Liquidation found for:", amount, "Contracts worth: $", lick_size, "on ", symbol)
-                else:
-                    pass
-                    print("Lick timestamp to far away")
+
             except KeyError:
                 pass
 
